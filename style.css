@@ -355,9 +355,5 @@ form .btn2 {
   padding: 25px 0;
   background: #262626;
   font-weight: 300;
-  margin-top: 20px;
-}
-
-.copyright i {
-  color: #00b140;
+  margin-top: auto;
 }
