@@ -387,6 +387,74 @@ form .btn2 {
   }
 }
 
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px 5%;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .logo {
+    width: 100px;
+    margin-left: -10px; /* Same negative margin for mobile */
+    margin-bottom: 10px;
+  }
+
+  .header-text {
+    margin-top: 40px;
+    font-size: 16px;
+    
+  }
+
+  .header-text h1 {
+    font-size: 32px;
+  }
+
+  .about-col-1,
+  .about-col-2,
+  .contact-left,
+  .contact-right {
+    flex-basis: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .services-list,
+  .work-list {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 16px;
+  }
+
+  .copyright {
+    font-size: 12px;
+    padding: 10px 0;
+  }
+}
+
 /* Example navigation */
 ul {
   list-style: none;
